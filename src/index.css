@@ -1,10 +1,34 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Courrier", Courrier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%); /*Andrei's favorite gradient*/
+  background: linear-gradient(89deg, #2b5876 0%, #4e4376 100%); /*Sea Blue*/
+  background: linear-gradient(89deg, #16A085 0%, #F4D03F 100%); /*Harmonic Energy*/
+  background: linear-gradient(89deg, #3CA55C 0%, #B5AC49 100%); /*Lemon*/
+  background: linear-gradient(89deg, #348F50 0%, #56B4D3 100%); /*Emerald Water*/
+  background: linear-gradient(89deg, #1488CC 0%, #2B32B2 100%); /*Skyline*/
+  background: linear-gradient(89deg, #e65c00 0%, #F9D423 100%); /*Blooker20*/
+  background: linear-gradient(89deg, #0f0c29 0%, #302b63 50%, #0f0c29 100%); /*Lawrencium*/
+  background: linear-gradient(89deg, #8360c3 0%, #2ebf91 100%); /*Kye Meh*/
+  background: linear-gradient(89deg, #8A2387 0%, #E94057 50%, #F27121 100%); /*Wiretap*/
+  background: linear-gradient(89deg, #5433FF 0%, #20BDFF 50%, #A5FECB 100%); /*Lunada*/
+  background: linear-gradient(89deg, #ffe259 0%, #ffa751 100%); /*Mango*/
+  background: linear-gradient(89deg, #f12711 0%, #f5af19 100%); /*Flare*/
+}
+
+.particles-under {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+buttons { 
+  cursor: pointer;
 }
 
 code {
